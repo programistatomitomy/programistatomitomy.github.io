@@ -1,0 +1,23 @@
+/* min-width: 579px */
+
+/* configuration two section services */
+.container img {
+    display: inline-block;
+    width: 15%;
+    margin-left: 150px;
+}
+
+.services-paragraphy {
+    position: absolute;
+    top: 40px;
+    left: 52%;
+}
+
+.services-paragraphy p {
+    margin-left: 0;
+}
+
+
+.services-paragraphy p {
+    font-size: 1.2rem;
+}

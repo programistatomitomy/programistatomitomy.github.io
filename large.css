@@ -1,0 +1,54 @@
+/* min-width: 992px) */
+
+/* header */
+.header-img {
+    background-image: url('../img/header-img-3.jpg');
+}
+
+.header-logo {
+    left: 90px;
+}
+
+
+a button {
+    top: 68%;
+}
+
+
+/* nav desktop */
+nav.desktop ul li a {
+    padding: 0 85px;
+}
+
+
+/* configuration two section services */
+.container img {
+    display: inline-block;
+    width: 15%;
+    margin-left: 220px;
+}
+
+.services-paragraphy {
+    position: absolute;
+    top: 95px;
+    left: 55%;
+}
+
+
+/* configuration footer button (i) up */
+footer .up {
+    display: block;
+}
+
+footer i {
+    position: fixed;
+    bottom: 20px;
+    right: 60px;
+    color: #fff;
+    font-size: 4rem;
+    transition: color .4s;
+}
+
+footer i:hover {
+    color: seagreen;
+}

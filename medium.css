@@ -1,0 +1,72 @@
+/* min-width: 768px) */
+
+/* header */
+.header-img {
+    background-image: url('../img/header-img-2.jpg');
+}
+
+.header-logo {
+    left: 65px;
+}
+
+a button {
+    top: 70%;
+}
+
+nav.mobile {
+    display: none;
+}
+
+
+/* nav desktop */
+nav.desktop {
+    display: block;
+    line-height: 50px;
+    background-color: #245d3f;
+    text-align: center;
+}
+
+nav.desktop ul {
+    list-style: none;
+}
+
+nav.desktop ul li {
+    display: inline-block;
+}
+
+nav.desktop ul li a {
+    padding: 0 60px;
+    color: #fff;
+    font-size: 1.4rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 1s;
+}
+
+nav.desktop ul li a:hover {
+    color: #bbbbdd;
+}
+
+
+/* configuration two section services */
+.container img {
+    display: inline-block;
+    width: 15%;
+    margin-left: 180px;
+}
+
+.services-paragraphy p {
+    font-size: 1.4rem;
+}
+
+
+/* configuration three section team */
+article {
+    transition: transform .5s, box-shadow .5s;
+    border-radius: 10px;
+}
+
+article:hover {
+    transform: scale(1.02);
+    box-shadow: 4px 5px 8px #908f95;
+}
