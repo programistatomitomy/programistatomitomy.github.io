@@ -1,1 +1,326 @@
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* header */
+.header-img {
+    position: relative;
+    height: 400px;
+    background-image: url('../img/header-img-1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header-logo {
+    position: absolute;
+    top: 40px;
+    left: 20px;
+}
+
+.header-logo-line {
+    position: relative;
+    top: 4px;
+    left: 22%;
+    width: 70px;
+    border-top: 3px solid #20bf6b;
+}
+
+.header-logo p {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.header-logo span {
+    color: #20bf6b;
+
+}
+
+.header-text h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+a button {
+    position: absolute;
+    top: 78%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    color: #fff;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    background-color: #245d3f;
+    border-radius: 10px;
+    border: 3px solid #244232;
+    transition: color 1s, box-shadow 1s;
+}
+
+a button:hover {
+    color: #bbbbdd;
+    box-shadow: 2px 4px 9px #245d3f;
+}
+
+.header-hero-bg {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .55);
+}
+
+nav.mobile {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+nav.mobile button {
+    background-color: transparent;
+    border: none;
+}
+
+nav.mobile button:focus {
+    outline: transparent;
+}
+
+nav.mobile button i {
+    padding: 10px 20px;
+    font-size: 4rem;
+    color: #fff;
+}
+
+nav.mobile button i:hover {
+    color: seagreen;
+}
+
+
+/* nav desktop */
+nav.desktop {
+    display: none;
+}
+
+
+/* --- main ---------------------------------------------------------------------*/
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section h2 {
+    margin-top: 60px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-h2-line {
+    position: relative;
+    top: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 30px;
+    border-top: 3px solid #20bf6b;
+}
+
+
+/* text one section */
+.about-us p {
+    margin: 25px 20px;
+    /* margin dla transparentnych sekcji*/
+    text-align: justify;
+    /* justify czy center? */
+    font-size: 1.4rem;
+    line-height: 160%;
+    letter-spacing: 1px;
+}
+
+
+/* configuration two section services */
+.section-two-bgc {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #5C5B62;
+}
+
+.services {
+    padding: 50px 0;
+    text-align: justify;
+}
+
+.container img {
+    display: none;
+}
+
+.services-paragraphy p {
+    color: #fff;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 220%;
+    margin-left: 40px;
+}
+
+.services-paragraphy p i {
+    margin-right: 5px;
+    font-size: 2rem;
+    vertical-align: middle;
+}
+
+
+/* configuration three section team */
+article {
+    width: 60%;
+    margin: 25px auto;
+    padding: 30px 0;
+    border: 1px solid #b1b0b9;
+    box-shadow: 2px 3px 5px #9b99a3;
+    background-color: #9795a1;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px solid #b1b0b9;
+}
+
+.img-avatar {
+    width: 150px;
+}
+
+.img-zenon {
+    background-image: url(../img/zenon.jpg);
+}
+
+.img-czarek {
+    background-image: url(../img/czarek.jpg)
+}
+
+.img-marcin {
+    background-image: url(../img/marcin.jpg)
+}
+
+.position {
+    padding-top: 22px;
+}
+
+.position h4,
+.position p {
+    color: #fff;
+    text-align: center;
+    line-height: 170%;
+}
+
+.position h4 {
+    font-size: 1.8rem;
+}
+
+.position p {
+    font-size: 1.4rem;
+}
+
+
+/* configuration four section contact */
+.section-contact-bgc {
+    width: 100%;
+    background-color: #5C5B62;
+}
+
+.contact {
+    margin-top: 25px;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.contact h3 {
+    text-transform: uppercase;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.contact p {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 200%;
+}
+
+.contact i {
+    color: #fff;
+    font-size: 2rem;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.contact i.phone:hover {
+    color: seagreen;
+}
+
+.contact i.email:hover {
+    color: royalblue;
+}
+
+
+/* configuration footer */
+footer {
+    position: relative;
+    background-color: #5C5B62;
+    line-height: 70px;
+    border-top: 3px solid #66656d;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+}
+
+footer .up {
+    display: none;
+}
+
+
+/* @media -  configuration two section services - RWD */
+@media screen and (min-width: 360px) {
+    .services-paragraphy p {
+        margin-left: 80px;
+    }
+}
+
+@media screen and (min-width: 411px) {
+    .services-paragraphy p {
+        margin-left: 95px;
+    }
+}
+
+@media screen and (min-width: 460px) {
+    .services-paragraphy p {
+        margin-left: 130px;
+    }
+}
+
+@media screen and (min-width: 500px) {
+    .services-paragraphy p {
+        margin-left: 170px;
+    }
+}
